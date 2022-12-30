@@ -1,0 +1,208 @@
+.pokeInfo-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.poke-info__header {
+    height: 155px;
+    min-height: 155px;
+    margin-top: 15rem;
+    position: relative;
+    border-radius: 15px;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.poke-info__sprite {
+    width: 30%;
+    max-width: 100%;
+    margin-top: -11rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.pokeInfo__id {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.pokeInfo__name {
+    font-size: 50px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+}
+
+.pokeInfo__label {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    justify-content: center;
+    gap: .5rem;
+}
+
+.span__div {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.pokeInfo__div {
+    display: flex;
+    justify-content: center;
+}
+
+.list-container__poke {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.pokeInfo__list-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 320px;
+    margin-top: 2.5rem;
+    gap: 1rem;
+    box-shadow: 5px 5px 25px 2px black;
+    padding: 12px;
+}
+
+.title-type {
+    font-size: 30px;
+    text-align: center;
+}
+
+.type-list_name {
+    width: 140px;
+    height: 38px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 19px;
+    padding: 8px 0 20px;
+    color: #fff;
+}
+
+.pokeInfo__list-abil {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 320px;
+    margin-top: 2.5rem;
+    gap: 1rem;
+    box-shadow: 5px 5px 25px 2px black;
+    padding: 12px;
+}
+
+.list__title {
+    font-size: 30px;
+}
+
+.abil-list_ability {
+    width: 140px;
+    height: 38px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 19px;
+    padding: 8px 0 20px;
+    background-color: rgb(187, 171, 171);
+    color: #fff;
+}
+
+.pokeInfo__section {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    list-style: none;
+}
+
+.stats-section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 3rem;
+    padding: 15px;
+    width: 50%;
+    gap: 1rem;
+    height: 50%;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 15px 2px black;
+}
+
+.stats__title {
+    display: flex;
+    font-size: 35px;
+    justify-content: center;
+}
+
+.stats__item {
+    border: 1px solid black;
+    height: 25px;
+    border-radius: 8px;
+    background-color: rgb(230, 228, 228);
+    height: 100%;
+}
+
+.stats__number {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.progress-bar {
+    background-color: rgba(235, 232, 42, 0.781) !important;
+    border-radius: 8px;
+}
+
+.movements-container {
+    border: 1px solid black;
+    width: 50%;
+    gap: 1rem;
+    height: 625px;
+    margin-top: 3rem;
+    padding: 15px;
+    overflow: scroll;
+    margin-left: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px 2px black;
+}
+
+.movements__title {
+    display: flex;
+    justify-content: center;
+}
+
+.movemets__item {
+    border: 1px solid black;
+    background-color: rgb(173, 186, 211);
+    border-radius: 15px;
+    width: 20%;
+    height: 6%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.movements-list {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
